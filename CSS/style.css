@@ -2675,9 +2675,9 @@ body.ar .mini-cta h2{
 
 @media(max-width:500px){
 
-        .container{
+        /* .container{
                 width:94%;
-        }
+        } */
 
         .course-card{
                 padding:22px;
@@ -2991,7 +2991,7 @@ body.ar .pricing-card ul li {
 
 .line-icon i{
     font-size:22px;
-    color:#16245c;
+    color:var(--primary);
 }
 
 .line-text{
@@ -3134,9 +3134,9 @@ body.ar .pricing-card ul li {
 
 @media(max-width:500px){
 
-    .container{
+    /* .container{
         width:94%;
-    }
+    } */
 
     .contact-form,
     .contact-info{

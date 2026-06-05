@@ -1,0 +1,684 @@
+<!-- home-ar.html -->
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>أكاديمية قدوة</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tienne:wght@400;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="ar">
+
+    <!-- BACKGROUND -->
+    <div class="pattern"></div>
+
+    <!-- ================= NAVBAR ======================= -->
+    
+      <header class="navbar" id="navbar">
+        <div class="container nav-container">
+        <!-- LOGO -->
+        <div class="logo">
+
+            <img src="imgs/logo q.png" alt="Logo">
+
+            <div class="logo-text">
+                <h3>أكاديمية قدوة</h3>
+                <span>أكاديمية تعليم أونلاين</span>
+            </div>
+
+        </div>
+
+        <div class="overlay"></div>
+
+        <!-- NAV LINKS -->
+
+        <nav class="nav-links">
+
+            <a href="home-ar.html">الرئيسية</a>
+            <a href="about-ar.html">من نحن</a>
+            <a href="courses-ar.html">الدورات</a>
+            <a href="pricing-ar.html">الأسعار</a>
+            <!-- <a href="">المدونة</a> -->
+            <a href="contact-ar.html">تواصل معنا</a>
+
+        </nav>
+
+        <div></div>
+
+        <div class="menu-icon" id="menuIcon">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+        </div>
+
+        <!-- LANG -->
+        <div class="lang-switcher" onclick="toggleLang()">
+
+            <i class="fa-solid fa-globe"></i>
+            <span>AR</span>
+            <i class="fa-solid fa-chevron-down"></i>
+
+        </div>
+
+        <!-- BUTTON -->
+        <a href="https://wa.me/201037900784" target="_blank">
+            <button class="trial-btn">احجز تجربة مجانية</button>
+        </a>
+        </div>
+    </header>
+
+
+    <!-- ============ HERO ===============================-->
+    <section class="hero container">
+
+        <div class="hero-left reveal">
+
+            <div class="badges"> <i class="fa-solid fa-star"></i> معلمون معتمدون لديهم خبرة فائقة في التدريس</div>
+            <h1> ابدأ رحلتك في <span>القرآن الكريم</span> و <span>الدراسات الإسلامية</span> و <span>اللغة العربية</span> أونلاين</h1>
+            <p> دروس فردية عبر الإنترنت في التجويد، الحفظ، اللغة العربية، والدراسات الإسلامية حسب مستواك وبأسلوب هادئ ومناسب لك.</p>
+
+            <div class="hero-buttons">
+
+                    <button class="primary-btn">
+                        <a href="https://wa.me/201037900784" target="_blank">
+                        احجز تجربتك مجانية
+                        <i class="fa-solid fa-arrow-right"></i></a>
+                    </button>
+
+                <a href="courses-ar.html"> <button class="secondary-btn"> استعرض الدورات </button></a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-right reveal-delay">
+
+            <div class="hero-image">
+                <img src="imgs/Hero.jpg" alt="طالب">
+                <div class="floating-card top-card">
+
+                    <div class="icon-box">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+
+                    <div>
+                        <span>حصص أونلاين</span>
+                        <h4>معلمين مؤهلين</h4>
+                    </div>
+
+                </div>
+
+                <div class="stats-card">
+
+                    <div>
+                        <h3>98%</h3>
+                        <span>نسبة الاستمرار</span>
+                    </div>
+
+                    <div>
+                        <h3>1:1</h3>
+                        <span>حصص فردية</span>
+                    </div>
+
+                    <div>
+                        <h3>24/7</h3>
+                        <span>حجز متاح</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= STATS ======================== -->
+
+    <section class="stats reveal container">
+        <div class="stat-box">
+            <i class="fa-solid fa-users"></i>
+
+            <div>
+                <h3> 90 %</h3>
+                <span>تقدّم الطلاب</span>
+            </div>
+
+        </div>
+
+        <div class="stat-box">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <div>
+                <h3>3+</h3>
+                <span> سنوات الخبرة </span>
+            </div>
+
+        </div>
+
+        <div class="stat-box">
+            <i class="fa-solid fa-earth-americas"></i>
+            <div>
+
+                <h3>7+</h3>
+                <span>دول حول العالم</span>
+
+            </div>
+
+        </div>
+
+        <div class="stat-box">
+            <i class="fa-solid fa-clock"></i>
+
+            <div>
+                <h3>24/7</h3>
+                <span>مرونة في اختيار المواعيد</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= ABOUT ======================== -->
+    
+    <section class="about container reveal">
+
+  <div class="about-left">
+    <div class="about-image">
+      <img src="imgs/About.jpg" alt="صورة قرآن">
+      <div class="about-card">
+        <h4>خَيْرُكُمْ مَنْ تَعَلَّمَ القُرْآنَ وَعَلَّمَهُ</h4>
+        <p> "خيركم من تعلم القرآن وعلمه" </p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="about-right">
+
+    <span class="subtitle"> عن الأكاديمية </span>
+    <h2> أكاديمية لتعليم القران والعلوم الإسلامية اونلاين </h2>
+    <p class="description"> تأسست أكاديمية القرآن لتمنح الطلاب حول العالم فرصة تعلم القرآن الكريم بطريقة أصيلة وحديثة، دون التنازل عن الجودة أو الراحة أو الاهتمام. يحمل معلمونا إجازات معتمدة وشهادات حديثة في أساليب التعليم. </p>
+    <div class="cards">
+      <div class="info-card">
+
+        <h4> رؤيتنا </h4>
+        <p> أن يضيء القرآن كل بيت مسلم. </p>
+
+      </div>
+
+      <div class="info-card">
+
+        <h4> رسالتنا </h4>
+        <p> تعليم شخصي ومنظم وممتع لجميع الأعمار.</p>
+
+      </div>
+
+    </div>
+    <a href="#" class="learn-more"> اعرف المزيد ← </a>
+    </div>
+
+    </section>
+
+<!-- ================= WHY US ================ -->
+
+    <div class="bg">
+      <section class="why-us container reveal">
+
+    <!-- TITLE -->
+
+    <div class="section-title">
+
+      <span>لماذا نحن</span>
+      <h2> تعليم موثوق للقرآن الكريم للأطفال والكبار حول العالم</h2>
+
+    </div>
+
+    <!-- CARDS -->
+
+    <div class="why-grid">
+
+      <!-- CARD -->
+
+      <div class="why-card">
+
+        <div class="icon">
+          <i class="fa-solid fa-shield"></i>
+        </div>
+
+        <h3>معلمون معتمدون</h3>
+
+        <p>
+          جميع المعلمين حاصلون على إجازات قرآنية وتدريب تربوي احترافي.
+        </p>
+
+      </div>
+
+      <!-- CARD -->
+
+      <div class="why-card">
+
+        <div class="icon">
+          <i class="fa-solid fa-user-group"></i>
+        </div>
+
+        <h3>حصص فردية</h3>
+
+        <p>
+          جلسات خاصة تناسب مستواك وسرعة تعلمك.
+        </p>
+
+      </div>
+
+      <!-- CARD -->
+
+      <div class="why-card">
+
+        <div class="icon">
+          <i class="fa-regular fa-clock"></i>
+        </div>
+
+        <h3>مواعيد مرنة</h3>
+
+        <p>
+          اختر الوقت المناسب لك مع إمكانية إعادة الجدولة بسهولة.
+        </p>
+
+      </div>
+
+      <!-- CARD -->
+
+      <div class="why-card">
+
+        <div class="icon">
+          <i class="fa-regular fa-heart"></i>
+        </div>
+
+        <h3>معلمات للنساء والأطفال</h3>
+
+        <p>
+          بيئة تعليمية مريحة وآمنة بإشراف معلمات متخصصات.
+        </p>
+
+      </div>
+
+      <!-- CARD -->
+
+      <div class="why-card">
+
+        <div class="icon">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+        </div>
+
+        <h3>تعليم ممتع للأطفال</h3>
+
+        <p>
+          أساليب ممتعة وصبورة تساعد الأطفال على حب القرآن.
+        </p>
+
+      </div>
+
+      <!-- CARD -->
+
+      <div class="why-card">
+
+        <div class="icon">
+          <i class="fa-solid fa-chart-column"></i>
+        </div>
+
+        <h3>متابعة مستمرة</h3>
+
+        <p>
+          تقارير دورية لمتابعة مستوى الطالب وتطوره.
+        </p>
+
+      </div>
+
+    </div>
+
+      </section>
+
+    </div>
+
+<!-- ================= COURSES ================ -->
+
+<section class="courses-showcase-section reveal ">
+
+    <div class="container">
+
+        <div class="courses-showcase-layout">
+
+            <!-- LEFT SIDE -->
+
+            <div class="courses-showcase-left">
+
+                <span class="courses-showcase-subtitle"> برامجنـــــا </span>
+
+                <h2 class="courses-showcase-title"> دورات لكل المراحل </h2>
+
+                <p class="courses-showcase-description">
+                    اكتشف برامج مصممة بعناية تساعد الطلاب على بناء الثقة في تلاوة القرآن الكريم، واللغة العربية، والمعرفة الإسلامية من خلال تعلم ممتع ومنظم.
+                </p>
+
+                <div class="courses-showcase-image">
+
+                    <img src="imgs/about page.jpg" alt="التعلم الإسلامي">
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT SIDE -->
+
+            <div class="courses-showcase-right">
+
+                <div class="courses-showcase-cards">
+
+                    <div class="showcase-course-card">
+
+                        <div class="showcase-course-icon">
+                            <i class="fa-solid fa-microphone-lines"></i>
+                        </div>
+
+                        <h3>إتقان التجويد</h3>
+
+                        <p>تعلم التلاوة الصحيحة مع نطق واضح وتطبيق قواعد التجويد</p>
+
+                        <div class="showcase-card-footer">
+
+                            <a href="https://wa.me/201037900784" target="_blank">
+                                سجّل الآن
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="showcase-course-card">
+
+                        <div class="showcase-course-icon">
+                            <i class="fa-solid fa-spell-check"></i>
+                        </div>
+
+                        <h3>نور البيان</h3>
+
+                        <p>بناء مهارات قوية في قراءة اللغة العربية من الحروف إلى قراءة القرآن بطلاقة</p>
+
+                        <div class="showcase-card-footer">
+
+                            <a href="https://wa.me/201037900784" target="_blank">
+                                سجّل الآن
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="showcase-course-card">
+
+                        <div class="showcase-course-icon">
+                            <i class="fa-solid fa-book-open-reader"></i>
+                        </div>
+
+                        <h3>الدراسات الإسلامية</h3>
+
+                        <p>تعلم العقيدة والفقه والسيرة بطريقة مبسطة ومتوازنة</p>
+
+                        <div class="showcase-card-footer">
+
+                            <a href="https://wa.me/201037900784" target="_blank">
+                                سجّل الآن
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="showcase-course-card">
+
+                        <div class="showcase-course-icon">
+                            <i class="fa-solid fa-child"></i>
+                        </div>
+
+                        <h3>تحفيظ القرآن الكريم</h3>
+
+                        <p>تعلم القرآن بطريقة ممتعة ولطيفة لغرس حب القرآن منذ الصغر</p>
+
+                        <div class="showcase-card-footer">
+
+                            <a href="https://wa.me/201037900784" target="_blank">
+                                سجّل الآن
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <a href="courses-ar.html" class="courses-showcase-all-link">
+                    عرض جميع الدورات
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FAQ ================ -->
+
+   <section class="faq-section reveal">
+
+  <div class="container padding">
+    <div class="faq-title reveal">
+      <span>الأسئلة الشائعة</span>
+      <h2> كل ما تحتاج معرفته.</h2>
+    </div>
+
+    <div class="faq-wrapper">
+
+      <!-- ITEM -->
+      <div class="faq-item reveal delay-1">
+        <div class="faq-question">
+          <h3>  هل أحتاج لمعرفة العربية قبل البدء؟</h3>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+
+        <div class="faq-answer">
+          <p> لا، نبدأ مع المبتدئين خطوة بخطوة من الحروف وحتى التلاوة الصحيحة </p>
+        </div>
+      </div>
+
+      <!-- ITEM -->
+
+      <div class="faq-item reveal delay-2">
+        <div class="faq-question">
+
+          <h3>  هل توجد معلمات للنساء والأطفال؟ </h3>
+          <i class="fa-solid fa-chevron-right"></i>
+
+        </div>
+
+        <div class="faq-answer">
+          <p>  نعم، نوفر معلمات ومعلمين ذوي خبرة لجميع الفئات العمرية </p>
+        </div>
+      </div>
+
+      <!-- ITEM -->
+
+      <div class="faq-item reveal delay-3">
+        <div class="faq-question">
+
+          <h3> كيف تُجرى الحصة التجريبية المجانية؟</h3>
+          <i class="fa-solid fa-chevron-right"></i>
+
+        </div>
+
+        <div class="faq-answer">
+          <p>  يمكنك حجز حصة مجانية للتعرف على المعلم وتجربة أسلوب الدراسة قبل الاشتراك. </p>
+        </div>
+
+      </div>
+
+      <!-- ITEM -->
+
+      <div class="faq-item reveal delay-4">
+
+        <div class="faq-question">
+          <h3>  هل يمكنني تغيير موعد الحصص؟ </h3>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+
+        <div class="faq-answer">
+          <p> بالتأكيد، نوفر مواعيد مرنة تناسب وقتك مع إمكانية إعادة الجدولة بسهولة. </p>
+        </div>
+
+      </div>
+
+      <!-- ITEM -->
+
+      <div class="faq-item reveal delay-4">
+
+        <div class="faq-question">
+          <h3> ما الأعمار التي تقومون بتعليمها؟ </h3>
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+
+        <div class="faq-answer">
+          <p> نقوم بتعليم الأطفال والبالغين من مختلف أنحاء العالم.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+   </section>
+
+<!-- ================= CTA ================ -->
+
+<section class="cta-section">
+
+  <div class="container">
+    <div class="cta-box reveal">
+      <span class="cta-arabic"> وَرَتِّلِ الْقُرْآنَ تَرْتِيلًا </span>
+      <h2> ابــدأ رحلتـك اليـــوم </h2>
+      <p> حصتك التجريبية المجانية على بُعد خطوة واحدة — تعرف على معلمك وابدأ رحلتك مع القرآن.</p>
+      <a href="#" class="cta-btn">
+        احجز حصتك المجانية
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+
+   </section>
+
+<!-- ================= FOOTER ================ -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-wrapper">
+      <!-- ABOUT -->
+
+      <div class="footer-about">
+        <div class="footer-logo">
+          <img src="imgs/logo q.png" alt="logo">
+          <div>
+            <h3>Qudwah Academy</h3>
+            <span>أكاديمية القرآن أونلاين</span>
+          </div>
+        </div>
+
+        <p>  أكاديمية متخصصة في تعليم القرآن الكريم والعلوم الإسلامية للطلاب حول العالم بأسلوب حديث وأصيل </p>
+
+        <div class="socials">
+          <a href="https://www.facebook.com/share/1WLW6BA2EK/" target="_blank">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://wa.me/201037900784" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-instagram" target="_blank"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-youtube" target="_blank"></i>
+          </a>
+        </div>
+
+
+      </div>
+
+      <!-- LINKS -->
+
+      <div class="footer-links">
+
+        <h4>روابط سريعة</h4>
+        <a href="about-ar.html">من نحن</a>
+        <a href="courses-ar.html">الدورات</a>
+        <a href="pricing-ar.html">الأسعار</a>
+        <a href="contact-ar.html">تواصل معنا</a>
+
+      </div>
+
+      <!-- CONTACT -->
+
+      <div class="footer-contact">
+        <h4>تواصل معنا</h4>
+        <p>
+          <i class="fa-regular fa-envelope"></i>
+          qudwahacdmy@gmail.com
+        </p>
+
+        <p>
+          <i class="fa-solid fa-phone"></i>
+          +201037900784
+        </p>
+
+        <p>
+          <i class="fa-solid fa-location-dot"></i>
+          متاحون حول العالم - أونلاين
+        </p>
+
+        <span> متاحون في أي وقت </span>
+      </div>
+    </div>
+
+    <!-- COPYRIGHT -->
+
+    <div class="footer-bottom-wrapper">
+      <div class="footer-bottom">
+        <p> © 2025 أكاديمية قدوة. جميع الحقوق محفوظة </p>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+    <script src="index.JS"></script>
+
+</body>
+</html>
